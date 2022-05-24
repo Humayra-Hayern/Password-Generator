@@ -1,4 +1,4 @@
-# 03 Password-Generator
+# 03 JavaScript: Password-Generator
 
 For this project, I had to create a password generator that would select a random combination of characters based on what criteria the user has input. Through the use of JavaScript, I was able to generate unpredictable passwords which would provide greater security for the user. 
 
