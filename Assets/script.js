@@ -1,13 +1,13 @@
-// Assignment Code: this code targets to generate id.
+// Assignment Code: this code targets the generate id.
 var generateBtn = document.querySelector("#generate");
 
-// Defined variables for password.
+// Defined the variables for the password.
 var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numericalChar = "0123456789";
 var specialChar = "!$%^&*+-";
 
-// Added the generate password function because without this a password cannot be generated.
+// Added the generate password function, without this a password cannot be generated.
 function generatePassword() {
   var password = "";
   var passwordChar = "";
@@ -17,12 +17,12 @@ function generatePassword() {
   passwordlength = parseInt(passwordlength);
 
   if (passwordlength < 8) {
-    alert("Password must have more than 7 characters!");
+    alert("Your password must have more than 7 characters");
     return "";
   }
 
   if (passwordlength > 128) {
-    alert("Password must not have more than 128 characters!");
+    alert("Your password must not have more than 128 characters");
     return "";
   }
 
@@ -65,7 +65,7 @@ function generatePassword() {
   return password;
 }
 
-// Write password to the #password input, this code then targets password id.
+// Write password to the #password input, this code then targets the password id.
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
