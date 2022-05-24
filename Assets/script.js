@@ -12,7 +12,7 @@ function generatePassword() {
   var password = "";
   var passwordChar = "";
   var passwordlength = prompt(
-    "Create a password length between 8-128 characters."
+    "How long do you want your password to be? (Minimum of 8 characters and a maximum of 128)"
   );
   passwordlength = parseInt(passwordlength);
 
